@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+nav{
+    padding-top: 7px;
+    background:  #99ddff;
+    top: 0;
+    position: sticky;
+    display: grid;
+    grid-template-columns: 500px repeat(5,auto);
+    font-size:24px;
+    grid-gap: 5px;
+
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    font-size: 25px;
+    color: gray;
+}
+.apropos{
+    padding-top: 12px;
+    grid-column: 6;
+    grid-row: 1;
+}
+.icons{
+    grid-row:1 ;
+    grid-column: 7;
+    padding-top: 14px;
+    text-align: center;
+}
+.icons1{
+    grid-row:1 ;
+    grid-column: 8;
+    padding-top: 14px;
+    text-align: center;
+}
+.nouveauté{
+    grid-column: 4;
+    grid-row: 1;
+    padding-top: 12px;
+
+}
+.effectif{
+    padding-top: 12px;
+    grid-column: 5;
+    grid-row:1;
+}
+.logo{
+    grid-column:1;
+    grid-row: 1;
+}
+.logo img{
+    margin-left: 12px;
+    width: 95px;
+}
+.logo img:hover{
+    margin-left: 12px;
+    width: 100px;
+}
+footer{
+    margin-top:75px ;
+    background:  #99ddff;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,35px);
+    grid-gap: 2px;
+    position: sticky;
+    bottom: 0;
+    text-align: center;
+}
+.adresse1{
+    margin-top: 5px;
+    font-weight: bold;
+    grid-column: 1;
+    grid-row: auto;
+}.adresse{
+    grid-column: 1;
+    grid-row: auto;
+}
+.contact1{
+    margin-top: 5px;
+    font-weight: bold;
+    grid-column: 2;
+    grid-row: 1;
+}.contact2{
+    grid-column: 2;
+    grid-row: 2;
+}.contact3{
+    grid-column: 2;
+    grid-row: 3;
+}
+.rs{
+    font-weight: bold;
+    margin-top: 5px;
+    grid-column: 3;
+    grid-row: 1;
+}
+.rs1{
+    grid-column: 3;
+    grid-row: 2;
+}
+.magasin{
+    height: 400px;
+    width: 100%;
+    margin-bottom:8px;
+}
+.bienvenue{
+    font-size: 22px;
+    text-align: center;
+}
+.presentation{
+    margin-top: 9px;
+    text-align: center;
+}
+h3{
+    margin-top: 35px;
+    text-align: center;
+}
+bestsales{
+    background: rgb(241,241,241);
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+card{
+    margin: 15px 0 15px 0;
+    width: 200px;
+}
+.img{
+    width: 150px;
+    height: 95px;
+}
+.titre {
+    font-weight: bold;
+    font-size: 18px;
+}
+.bouton{
+    margin: 5px 35px;
+}
+.bouton a{
+    background:seagreen;
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+    font-weight: bold;
+    font-size:12px;
+    display:block;
+    width:135px;
+    height: 35px;
+    line-height:35px;
+    border-radius: 5px;
+}
+ categories{
+
+     background: rgb(241,241,241);
+     display: flex;
+     margin-top: 15px;
+     width: 100%;
+     justify-content: space-evenly;
+ }
+ categorie{
+     margin: 5px 0 5px 0;
+ }
+ categorie a{
+     text-align: center;
+     color: black;
+     text-decoration: none;
+ }
+ .img_cat{
+     height: 250px;
+     width: 200px;
+ }
+ .nom_cat{
+     line-height:60px;
+     height: 60px;
+     width: 200px;
+     background: white;
+     font-weight: bold;
+ }
+ .imgApropos{
+     margin: 1% auto 0 auto;
+     display: flex;
+ }
+apropos h1 {
+    margin-top: 2%;
+    margin-left: 240px ;
+}
+apropos p{
+    margin-top: 1%;
+    margin-left: 240px;
+}
+
+
+
